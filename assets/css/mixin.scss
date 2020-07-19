@@ -1,7 +1,18 @@
 /*--------------------
 	Code By - Md Ayatullah Rahmani
 --------------------*/
-
+@mixin fontface($name, $path, $file, $weight: normal, $style: normal){
+  @font-face {
+    font-family: "#{$name}";
+    src: url($path+$file+'.ttf');
+    // src: url($path+$file+'.eot?#iefix') format('embedded-opentype'),
+    //      url($path+$file+'.woff') format('woff'),
+    //      url($path+$file+'.ttf') format('truetype'),
+    //      url($path+$file+'.svg?#webfont') format('svg');
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
 @mixin shift($property: all, $duration: 1s, $ease: linear){
 	-webkit-transition: $property $duration $ease;
 	-moz-transition: $property $duration $ease;
