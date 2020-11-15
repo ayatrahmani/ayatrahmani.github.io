@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1605462937480,
+  "timestamp": 1605466162571,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -14,8 +14,8 @@
         "/6-es5.54a00b715fe3ee670420.js",
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.7a60f99f71c8d4351146.js",
-        "/main-es5.7a60f99f71c8d4351146.js",
+        "/main-es2015.4affc6a484f88edef817.js",
+        "/main-es5.4affc6a484f88edef817.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.2320f4dbebd0efa7fb56.js",
         "/polyfills-es5.591b5ee033474730d8f5.js",
@@ -28,7 +28,7 @@
     {
       "name": "assets",
       "installMode": "lazy",
-      "updateMode": "prefetch",
+      "updateMode": "lazy",
       "urls": [
         "/assets/css/mixin.scss",
         "/assets/file/md-ayatullah-ui-developer.doc",
@@ -121,9 +121,9 @@
     "/fontawesome-webfont.8b43027f47b20503057d.eot": "d980c2ce873dc43af460d4d572d441304499f400",
     "/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
     "/fontawesome-webfont.f691f37e57f04c152e23.woff": "28b782240b3e76db824e12c02754a9731a167527",
-    "/index.html": "b1bfad89c3025bed8ca8ccae2f4c82717739b407",
-    "/main-es2015.7a60f99f71c8d4351146.js": "45da834c7403e7ae3e32c4e6784cbf11226f7446",
-    "/main-es5.7a60f99f71c8d4351146.js": "8b967b0482f736d1e097889e249e2d87507879b3",
+    "/index.html": "a79b59bc34707f25d34a76b61f6c3c440a239e23",
+    "/main-es2015.4affc6a484f88edef817.js": "b7c276cd07ea7d0472d7973185aba5f56553003e",
+    "/main-es5.4affc6a484f88edef817.js": "93f37d2f6b372463d08ce2628e4141ee969c294f",
     "/manifest.webmanifest": "0ae733a94a7e227d1ea0475a766b3451c2df2838",
     "/polyfills-es2015.2320f4dbebd0efa7fb56.js": "90fb474e1a7d87bd57bc8a95fb3fd361b919d815",
     "/polyfills-es5.591b5ee033474730d8f5.js": "ccfff1a6bd0b9531245e25bf3c0c8cf948ced8c2",
