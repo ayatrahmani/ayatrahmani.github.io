@@ -1,1 +1,98 @@
-<h1>Md Ayatullah Rahmnai Angular</h1>
+<div class="main-wrapper">
+    <header class="main-header">
+        <div class="container">
+            <div class="header">
+                <nav class="navbar navbar-expand-sm navbar-light bg-light ayat-nav">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item" routerLinkActive="active">
+                                <a class="nav-link" routerLink="/about">About Me </a>
+                            </li>
+                            <li class="nav-item" routerLinkActive="active">
+                                <a class="nav-link" routerLink="/resume">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="body-content-wrapper">
+        <div class="container">
+            <div class="body-content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="ayat-card" appScrollAyat>
+                            <div class="ayat-profile">
+                                <div class="left-card-img">
+                                    <img src="assets/img/profile1.png">
+                                    <!-- <ng-container *ngFor="let img of img_list; let i = index">
+                                        <div class="slider" *ngIf="current == i" @fade>
+                                            <img class="img" [src]="'assets/img/'+img">
+                                        </div>
+                                    </ng-container> -->
+                                </div>
+                                <!-- end img -->
+                            </div>
+                            <!-- end profile img -->
+
+                            <div class="profile-info">
+                                <h2>Md Ayatullah Rahmani</h2>
+                                <h3>UI Developer</h3>
+                                <div class="socal-contact">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/ayat.rahmaani" target="blank" rel="" placement="top" ngbTooltip="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/ayatrahmani" target="blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://stackoverflow.com/users/6917021/ayatullah-rahmani" target="blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/ayatrahmani" target="blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/ayatrahmani/" target="blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- end socail -->
+                                <div class="got-inf clearfix">
+                                    <a  class="btn btn-outline-primary btn-sm float-left"href="assets/file/md-ayatullah-ui-developer.doc">Download CV</a>
+                                    <!-- <button type="button" class="btn btn-outline-primary btn-sm float-left">Download
+                                        CV</button> -->
+                                        <button type="button" class="btn btn-outline-success btn-sm float-right">Contact
+                                            Me</button>
+                                </div>
+                            </div>
+                            <!-- end info -->
+
+                        </div>
+                        <!-- end card -->
+                    </div>
+                    <!-- end left col -->
+                    <div class="col-md-8">
+                        <router-outlet></router-outlet>
+
+                    </div>
+                    <!-- end right -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end main wrapper -->
